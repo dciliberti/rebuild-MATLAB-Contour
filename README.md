@@ -2,7 +2,7 @@
 # rebuild-MATLAB-contour
 Rebuild a MATLAB contour plot coordinates by interpolating the available iso-lines data.
 
-![ricostruzione_contour](https://user-images.githubusercontent.com/52099779/180611413-711b0be9-65bc-4a40-9751-f43cd045aacb.png)
+![ricostruzione_contour](https://user-images.githubusercontent.com/52099779/180611816-be16f744-1db8-4787-aeee-a6968cf1808a.png)
 
 ## Detailed information
 This MATLAB script reads a `.dat` file, which may be the output of the native MATLAB `contour` function. The input `.dat` file is loaded by a selection dialog box. The file content has to be a numerical array of (2 x n), that is 2 rows by n columns, containing the coordinates of the iso-lines. If the array is transposed (n x 2), this script will automatically transpose it to the correct form (2 x n).
