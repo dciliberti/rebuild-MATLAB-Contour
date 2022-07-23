@@ -48,7 +48,7 @@
 % Known issues: to get a high-quality figure, the plot renderer is forced
 % to be painters, that is vectorial. However, in doing so, the labels in 
 % Figure 3 will be overlapped by the iso-lines, no matter when the renderer
-% is called. To fix this, the command
+% is called. To fix this, the statement
 %
 %   set(gcf,'Renderer','painters');
 %
